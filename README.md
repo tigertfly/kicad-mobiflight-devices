@@ -1,16 +1,11 @@
-# MobiFlight input and output device design blocks for KiCAD
+# KiCAD design blocks for MobiFlight devices
 
-KiCAD "design blocks" are reusable schematic (and PCB) snippets for PCB design.
+KiCAD "design blocks" are reusable schematic (and PCB) snippets for PCB design. 
 
-This particular design block library has design blocks for all input and output devices
-that MobiFlight supports, intended to help with simulator panel PCB designs.
+This design block library contains design blocks for  input and output devices supported by [MobiFlight](https://www.mobiflight.com/). It is created with hope that it will be useful for those learning to design printed circuit boards for their flight simulator projects.
 
-Most, if not all, of these contain design blocks for schematics, as PCB layouts are
-often veru specific to particular panel layouts.
+This is a work in progress, and at least for now, the design blocks are mostly for schematics, as PCB layouts are more specific to particular panel layouts. 
 
-Also, if there are default footprints specified, they usually are through-hole (THT)
-components, which is more useful for those learning to design circuit boards. If you
-are more experienced in PCB design, it is easy to replace the footprints if you need to.
+Any default footprints specified are usually through-hole (THT) components. If you are more experienced in PCB design, you can of course change them to suit your preferences.
 
-This design block library might reference some component footprints from the
-[kicad sim panel components -library](https://github.com/MobiFlight/kicad-sim-panel-components).
+This design block library might reference some component footprints from the [kicad sim panel components -library](https://github.com/MobiFlight/kicad-sim-panel-components), installing it along this one is likely useful.
