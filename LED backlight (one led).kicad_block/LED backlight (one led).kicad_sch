@@ -2,7 +2,7 @@
 	(version 20260101)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "87156cee-9d4e-46c0-9b43-fd3e02b9348a")
+	(uuid "bc654290-fc62-4526-9b28-86f7367577b9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -488,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 90.17) (xy 297.18 90.17)
+			(xy 289.56 90.17) (xy 287.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -498,17 +498,27 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 90.17) (xy 281.94 90.17)
+			(xy 266.7 90.17) (xy 266.7 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3639dba6-502a-4a40-8721-21b1f1137976")
+		(uuid "2161ca94-bf22-4079-8b82-59d7b72d92a3")
 	)
 	(wire
 		(pts
-			(xy 299.72 85.09) (xy 299.72 90.17)
+			(xy 266.7 90.17) (xy 271.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3aac0a-9294-4b41-a6ce-44a934a089b6")
+	)
+	(wire
+		(pts
+			(xy 289.56 85.09) (xy 289.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -516,19 +526,9 @@
 		)
 		(uuid "a99df869-528c-418b-bb18-1100e0b6ae2a")
 	)
-	(wire
-		(pts
-			(xy 276.86 90.17) (xy 276.86 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5df1617-11d0-40db-b62f-f614d5c5aecd")
-	)
 	(global_label "BACKLIGHT_GND"
 		(shape input)
-		(at 276.86 95.25 270)
+		(at 266.7 95.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -538,7 +538,7 @@
 		)
 		(uuid "4e36c717-00c8-44d7-acc6-27709cbec775")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.86 113.1729 90)
+			(at 266.7 113.1729 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -552,7 +552,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 299.72 85.09 0)
+		(at 289.56 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -563,7 +563,7 @@
 		(fields_autoplaced yes)
 		(uuid "036a0a50-7748-4201-8a31-1e2f3cafe221")
 		(property "Reference" "#PWR011"
-			(at 299.72 88.9 0)
+			(at 289.56 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -574,7 +574,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 299.72 80.01 0)
+			(at 289.56 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -584,7 +584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 85.09 0)
+			(at 289.56 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -595,7 +595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 85.09 0)
+			(at 289.56 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -606,7 +606,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 299.72 85.09 0)
+			(at 289.56 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -630,7 +630,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 293.37 90.17 90)
+		(at 283.21 90.17 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -641,7 +641,7 @@
 		(dnp no)
 		(uuid "84d1e8fb-0ea0-4a2c-bcba-b62bb8f6a567")
 		(property "Reference" "R1"
-			(at 293.37 96.52 90)
+			(at 283.21 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -651,7 +651,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 293.37 93.98 90)
+			(at 283.21 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -660,8 +660,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 293.37 88.392 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 283.21 88.392 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -672,7 +672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 90.17 0)
+			(at 283.21 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -683,7 +683,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 293.37 90.17 0)
+			(at 283.21 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -710,7 +710,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 285.75 90.17 0)
+		(at 275.59 90.17 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -720,8 +720,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfca3c63-150c-493b-9f8b-09f9bd4522b8")
-		(property "Reference" "D3"
-			(at 284.1625 96.52 0)
+		(property "Reference" "D1"
+			(at 274.0025 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -731,7 +731,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 284.1625 93.98 0)
+			(at 274.0025 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -741,7 +741,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 285.75 90.17 0)
+			(at 275.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -752,7 +752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 90.17 0)
+			(at 275.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -763,7 +763,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 285.75 90.17 0)
+			(at 275.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -774,7 +774,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 285.75 90.17 0)
+			(at 275.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -793,7 +793,7 @@
 		(instances
 			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)

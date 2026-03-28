@@ -2,7 +2,7 @@
 	(version 20260101)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "f3bcd38e-65b0-4759-86e1-328258f87b4f")
+	(uuid "b3041d92-9f51-409f-8038-b6174075e4fb")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -548,7 +548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c4a44e3-59c7-4442-ad15-c536a125915f")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 223.2025 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -621,7 +621,7 @@
 		(instances
 			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -638,7 +638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6407efb8-2f56-47cf-be44-f6311870b541")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 232.41 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -658,7 +658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 232.41 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -700,7 +700,7 @@
 		(instances
 			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
