@@ -2,7 +2,7 @@
 	(version 20260101)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "4896f139-ca84-4523-82ac-88153c061305")
+	(uuid "404c5da1-b73f-4fdf-982c-00b931af4e1d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -461,189 +461,84 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(wire
 		(pts
-			(xy 274.32 93.98) (xy 271.78 93.98)
+			(xy 238.76 92.71) (xy 236.22 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "074e74bd-d975-42d9-80e7-ecbc701cc6f2")
+		(uuid "192f7b7b-9289-4135-941b-718fa898dc61")
 	)
 	(wire
 		(pts
-			(xy 254 93.98) (xy 254 105.41)
+			(xy 238.76 82.55) (xy 238.76 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "195ac7ba-b1b6-4ab1-97d8-6b919af62466")
+		(uuid "31cd8421-fc0a-4ad4-b69d-aff4ee48564a")
 	)
 	(wire
 		(pts
-			(xy 256.54 93.98) (xy 254 93.98)
+			(xy 241.3 82.55) (xy 238.76 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a32f07dd-c43f-446a-af03-3b7deed3be6a")
+		(uuid "aa164c8b-2271-408b-87d2-f5d928e15180")
 	)
 	(wire
 		(pts
-			(xy 274.32 85.09) (xy 274.32 93.98)
+			(xy 220.98 92.71) (xy 218.44 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d377891f-0c32-4a51-8096-dcd23195613b")
+		(uuid "b17f31a6-7f95-4b33-8370-9d4457471a56")
+	)
+	(wire
+		(pts
+			(xy 218.44 92.71) (xy 218.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacb53b8-4296-48d9-a632-978a16cc09c1")
+	)
+	(global_label "LED1"
+		(shape input)
+		(at 241.3 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5d13f3d-2b1d-4fa4-883f-8ebac7f5fe94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.9418 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 260.35 93.98 0)
+		(at 224.79 92.71 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -652,9 +547,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "51939670-ff26-475f-8a46-e4d37c836696")
-		(property "Reference" "D1"
-			(at 258.7625 100.33 0)
+		(uuid "3c4a44e3-59c7-4442-ad15-c536a125915f")
+		(property "Reference" "D2"
+			(at 223.2025 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -664,7 +559,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 258.7625 97.79 0)
+			(at 223.2025 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -674,7 +569,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 260.35 93.98 0)
+			(at 224.79 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -685,7 +580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 93.98 0)
+			(at 224.79 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -696,7 +591,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 260.35 93.98 0)
+			(at 224.79 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -707,7 +602,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 260.35 93.98 0)
+			(at 224.79 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -718,171 +613,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbe08822-405d-4aae-8587-7feb021883b6")
+			(uuid "7b1df976-ad54-408b-b669-613f264b3062")
 		)
 		(pin "2"
-			(uuid "358cd379-5e22-409c-b47e-cdf513cf26fc")
+			(uuid "c91c959c-c7ba-4f11-8c12-5207409c875e")
 		)
 		(instances
-			(project "MobiFlight-kicad-blocks-source"
+			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 274.32 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "632688da-36f2-432e-87e4-55db3d33ed24")
-		(property "Reference" "#PWR012"
-			(at 274.32 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 274.32 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 274.32 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb944970-9f74-45ee-b8d1-531f08759406")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 254 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c002b751-1aaf-4ce4-8469-be796b29d0f9")
-		(property "Reference" "#PWR011"
-			(at 254 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab6dc474-ee2c-40a3-945b-a6d642bc1496")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "#PWR011")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -890,8 +629,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 267.97 93.98 90)
-		(mirror x)
+		(at 232.41 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -899,9 +637,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "daebd6fa-2adc-415c-82db-a07824eab225")
-		(property "Reference" "R9"
-			(at 267.97 100.33 90)
+		(uuid "6407efb8-2f56-47cf-be44-f6311870b541")
+		(property "Reference" "R1"
+			(at 232.41 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -910,8 +648,8 @@
 				)
 			)
 		)
-		(property "Value" "R300"
-			(at 267.97 97.79 90)
+		(property "Value" "300R"
+			(at 232.41 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -921,7 +659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 92.202 90)
+			(at 232.41 90.932 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -932,7 +670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 93.98 0)
+			(at 232.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -943,7 +681,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 267.97 93.98 0)
+			(at 232.41 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -954,15 +692,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "bafa8ee2-78b5-4325-9f50-1d551ae913f5")
+			(uuid "298403e1-bf24-4500-920d-84b5b9a8c5dc")
 		)
 		(pin "2"
-			(uuid "5d1e41c1-ab9a-4dde-9f9c-293abdfa0c99")
+			(uuid "2b3f23e4-d980-471e-957f-260e5c14f0b1")
 		)
 		(instances
-			(project "MobiFlight-kicad-blocks-source"
+			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R9")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782f68a6-dda3-4e26-b496-448f3d8c29ad")
+		(property "Reference" "#PWR015"
+			(at 218.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97975695-1cb2-4c1c-bdb4-1b8a54accea9")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
