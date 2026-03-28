@@ -2,7 +2,7 @@
 	(version 20260101)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "5e286c01-266f-4aaa-a025-3f1c95b3dc76")
+	(uuid "4b0072fc-434e-4b81-983f-3d54cf8b442c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74xx:74HC165"
@@ -942,737 +942,719 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "input shifter \nswitches connect \nto GND like regular\nswitches."
-		(exclude_from_sim no)
-		(at 80.518 103.886 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(rectangle
+		(start 833.12 217.17)
+		(end 957.58 309.88)
+		(stroke
+			(width 0)
+			(type dash)
 		)
-		(uuid "24c20d72-3499-4a76-9a22-abbc573a0f34")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 137.16 97.282 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+		(fill
+			(type none)
 		)
-		(uuid "56cfb216-9e76-47bf-ac3c-a12928dfbac1")
-	)
-	(text "pull-up resistors"
-		(exclude_from_sim no)
-		(at 130.81 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d897c70-db37-4de9-850e-e4bde4b5a69f")
-	)
-	(text "Input shift register"
-		(exclude_from_sim no)
-		(at 79.756 71.882 0)
-		(effects
-			(font
-				(size 3.175 3.175)
-			)
-			(justify left)
-		)
-		(uuid "71271ae7-23e3-47a5-af28-e8449f943abe")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 139.7 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "81e55c9e-089d-4105-80f4-0317ac6af213")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 139.7 97.79 0)
-		(effects
-			(font
-				(size 0.8128 0.8128)
-			)
-		)
-		(uuid "8e77a5a3-b64e-4371-92bd-134986f1b790")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 117.348 103.124 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "b5fb5c3b-37b7-4e17-ad2d-6b02de624479")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 139.7 99.822 0)
-		(effects
-			(font
-				(size 0.8128 0.8128)
-			)
-		)
-		(uuid "ba976cd2-66d7-4c65-8ede-8e70356bedba")
+		(uuid "013276e4-e3ad-4aee-8681-c4f1e1716243")
 	)
 	(text "if chained,\nthis goes to \nnext chip."
 		(exclude_from_sim no)
-		(at 149.098 103.124 0)
+		(at 903.478 255.524 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f0cc8bfb-e2fe-46c7-ade8-6c2ac751ec83")
+		(uuid "0d887df0-c9e2-4e16-98c6-1cec77184735")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 871.728 255.524 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "24b930ce-a3bf-4a76-818c-8acc05f0be7a")
+	)
+	(text "Input shift register"
+		(exclude_from_sim no)
+		(at 834.644 221.234 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left)
+		)
+		(uuid "4a2305d5-de06-401b-bc87-b7f0c7f8f9f6")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 894.08 252.222 0)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+		)
+		(uuid "57b42577-1ac9-4652-988e-9a1655b93f97")
+	)
+	(text "switches connect\nto input shifter \nthe same as to\nmicrocontroller pins."
+		(exclude_from_sim no)
+		(at 840.232 255.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bdf41a6-6ec5-4866-a2a3-419f0b9e3925")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 894.08 250.19 0)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+			)
+		)
+		(uuid "abdf7620-ed3e-426d-9fd8-9a53b4c74943")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 894.08 250.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1b1014d-af1b-4b45-9bd0-652e850e8e2c")
+	)
+	(text "pull-up resistors"
+		(exclude_from_sim no)
+		(at 885.19 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfbe7a42-2db0-4734-b253-cf5a7814e46b")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 891.54 249.682 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eef59d4d-4abc-4001-a30b-ee98f5b128a1")
 	)
 	(junction
-		(at 113.03 85.09)
+		(at 872.49 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0eaefdfe-6f09-4782-b5bc-9d8104037d97")
+		(uuid "0446f0f0-8cf8-4324-b486-9d8955bdce7e")
 	)
 	(junction
-		(at 118.11 85.09)
+		(at 882.65 276.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ec10ff2-ce57-465a-8eb8-48a59278af6d")
+		(uuid "141072a4-1440-420c-a3bb-89d2f25a8a9c")
 	)
 	(junction
-		(at 123.19 119.38)
+		(at 889 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1287740b-d6d3-49b5-ad38-64340cfab367")
+		(uuid "2be992b0-aa09-4d4d-a1b4-c3caa48346b4")
 	)
 	(junction
-		(at 120.65 116.84)
+		(at 869.95 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1a6869b5-8bd6-4fba-b412-e88ed55726b6")
+		(uuid "2dce9667-ed00-4909-8198-6e346dc05317")
 	)
 	(junction
-		(at 161.29 146.05)
+		(at 915.67 298.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d0220a6-de01-46e6-8806-5ff810df43f4")
+		(uuid "5ce9b2a7-8153-462c-88e0-9f2d96d5dc1e")
 	)
 	(junction
-		(at 128.27 124.46)
+		(at 880.11 274.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ae68803-5eeb-4e22-9e12-2021e2f22118")
+		(uuid "5d543ed7-b023-410d-8e44-ad9026629bb4")
 	)
 	(junction
-		(at 110.49 106.68)
+		(at 864.87 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7614439a-a90a-450e-89fa-4a6190019912")
+		(uuid "601c3405-0559-4dbd-9260-39915255ae23")
 	)
 	(junction
-		(at 134.62 137.16)
+		(at 875.03 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "87864b30-d6cb-41ad-8753-36b1d641f45d")
+		(uuid "6394bcf7-473d-41f7-8e11-e0628fa75468")
 	)
 	(junction
-		(at 118.11 114.3)
+		(at 867.41 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "881f202a-4124-4e4b-bba9-fe571ecbf670")
+		(uuid "6467e2c5-0d74-4436-b6fc-efe254f97c35")
 	)
 	(junction
-		(at 120.65 85.09)
+		(at 877.57 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9291fb11-ef16-42ee-ab9f-bf2ef23e6ecc")
+		(uuid "67697a76-91a0-4af8-a1b8-d24173a28050")
 	)
 	(junction
-		(at 115.57 85.09)
+		(at 867.41 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96950f8f-3205-4d98-8720-99694bce3ad8")
+		(uuid "72202111-9664-4d3c-82a8-0209af4ae5b3")
 	)
 	(junction
-		(at 113.03 109.22)
+		(at 875.03 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab63b48f-e6fb-419a-9254-62942b7c5277")
+		(uuid "733c659e-fccf-4c7c-b043-fc082fe67244")
 	)
 	(junction
-		(at 119.38 85.09)
+		(at 880.11 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb086b3d-f311-4865-ae50-f8d51f2c9f4b")
+		(uuid "9cadf81e-75af-4d88-a77d-f441471f21d6")
 	)
 	(junction
-		(at 123.19 85.09)
+		(at 864.87 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c075223e-6f49-4459-8918-e0538b28c397")
+		(uuid "b2d4357d-11b8-4651-88af-9a135f5abaa0")
 	)
 	(junction
-		(at 125.73 121.92)
+		(at 877.57 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3d439c0-25e9-4b7f-bb22-f4932f8b4354")
+		(uuid "c63cbdad-ee11-4714-af31-80dbb88a2102")
 	)
 	(junction
-		(at 161.29 93.98)
+		(at 869.95 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c5543192-d83a-4c4a-a4d4-240fb4d8a14e")
+		(uuid "e7e24712-5c23-4b31-ab0b-663f35756244")
 	)
 	(junction
-		(at 125.73 85.09)
+		(at 915.67 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd3461e1-16bf-4a28-95f0-e76001e4555e")
+		(uuid "f12d0851-cc19-458d-bf17-da526b866520")
 	)
 	(junction
-		(at 115.57 111.76)
+		(at 872.49 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed67c528-57cc-46af-8ec7-cecd992f9d2d")
+		(uuid "f3c0e129-ac1a-4d5b-8a26-92c90ebc0822")
 	)
 	(no_connect
-		(at 173.99 106.68)
-		(uuid "15653445-a548-4f99-80ba-2212bf7793dd")
+		(at 928.37 259.08)
+		(uuid "1fa8ed12-5279-4a1a-bd7b-f97bf53cd00f")
 	)
 	(wire
 		(pts
-			(xy 161.29 93.98) (xy 189.23 93.98)
+			(xy 850.9 259.08) (xy 864.87 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c5d8640-ced2-4dc9-b705-02de60b1e77e")
+		(uuid "04162bd5-1dbd-4dc4-869d-3fd1c27613e6")
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 87.63)
+			(xy 864.87 237.49) (xy 875.03 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ca744ca-c3f8-4e27-9a85-a6f128517f78")
+		(uuid "1f5efc90-d649-494e-875b-58e8b836e7e3")
 	)
 	(wire
 		(pts
-			(xy 96.52 121.92) (xy 125.73 121.92)
+			(xy 877.57 247.65) (xy 877.57 271.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f139450-a4c0-489c-a325-28f72f94b2a8")
+		(uuid "249662eb-832a-4cdf-b07a-f55e384d8c17")
 	)
 	(wire
 		(pts
-			(xy 113.03 109.22) (xy 148.59 109.22)
+			(xy 915.67 243.84) (xy 915.67 246.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0faf2004-b952-4b56-8174-986651151e9d")
+		(uuid "2592a94b-8007-4f16-a8a5-21b91ee12d48")
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 161.29 93.98)
+			(xy 882.65 276.86) (xy 902.97 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10a90690-f945-4474-8c16-acb5acf45b12")
+		(uuid "31de814a-bef7-4bfd-b70e-156809974628")
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 115.57 111.76)
+			(xy 872.49 237.49) (xy 872.49 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "158f0e0c-b119-42e8-806d-988066b02907")
+		(uuid "338d8f6a-d1af-40b4-ac49-67396086697f")
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 113.03 109.22)
+			(xy 864.87 237.49) (xy 864.87 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16508097-6d04-4fd7-a3d8-e2781809c3b9")
+		(uuid "37c4624f-7192-4001-a9aa-c4065aa9614d")
 	)
 	(wire
 		(pts
-			(xy 128.27 95.25) (xy 128.27 124.46)
+			(xy 872.49 266.7) (xy 902.97 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b005df3-d790-40ef-a520-580294ad5f2e")
+		(uuid "45ab2c47-b31a-4f34-9761-9407424554db")
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 134.62 146.05)
+			(xy 850.9 269.24) (xy 875.03 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fbf3fb0-ad91-4d17-8038-6d2d73dd53df")
+		(uuid "4b47bde8-51ab-4c22-9ec6-56f35314c6d4")
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 125.73 85.09)
+			(xy 850.9 266.7) (xy 872.49 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23b58781-4765-467e-9d6c-b4fe24fe7f30")
+		(uuid "4c6ac4d1-6799-4d82-a8dd-62579002acc9")
 	)
 	(wire
 		(pts
-			(xy 96.52 109.22) (xy 113.03 109.22)
+			(xy 869.95 247.65) (xy 869.95 264.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25893ca9-e458-4e3b-9540-f4fcedbf0f9b")
+		(uuid "5657597e-dcf5-4129-a54c-79a1407cd444")
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 119.38 82.55)
+			(xy 850.9 276.86) (xy 882.65 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "279e259f-2c68-49d9-a808-c03de25d406e")
+		(uuid "59be4c12-0678-4c1b-b15d-ce0c8458ef15")
 	)
 	(wire
 		(pts
-			(xy 161.29 91.44) (xy 161.29 93.98)
+			(xy 869.95 237.49) (xy 869.95 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c08fc30-e2ad-4055-9bae-6b9e18649672")
+		(uuid "5aaf8906-4085-4564-97d6-4c8c77031e69")
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 134.62 104.14)
+			(xy 850.9 264.16) (xy 869.95 264.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34a0099c-4b2d-4895-bebd-c07f5c372e93")
+		(uuid "5bf27efc-abf9-45a4-a348-df34c61d9625")
 	)
 	(wire
 		(pts
-			(xy 110.49 95.25) (xy 110.49 106.68)
+			(xy 943.61 260.35) (xy 943.61 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40136456-ff4c-4d5a-b3d5-728e945e5053")
+		(uuid "5e7588e3-649f-4a79-8a49-2d1dab235ecb")
 	)
 	(wire
 		(pts
-			(xy 96.52 124.46) (xy 128.27 124.46)
+			(xy 850.9 271.78) (xy 877.57 271.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42f2cf9e-8718-489f-b657-0db983c14b78")
+		(uuid "63621dd1-44ae-4ed2-880f-c0a30dd97a39")
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 118.11 87.63)
+			(xy 867.41 261.62) (xy 902.97 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4529f9ca-a022-4cfb-bc61-2c4d235a24e4")
+		(uuid "642033f0-00d7-4c51-92fd-89f080822fd1")
 	)
 	(wire
 		(pts
-			(xy 96.52 114.3) (xy 118.11 114.3)
+			(xy 864.87 247.65) (xy 864.87 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4922f091-7f9e-4a58-9d62-0726bdea4c5d")
+		(uuid "6794f02d-633d-4278-8ad1-a9ce2f74d41d")
 	)
 	(wire
 		(pts
-			(xy 125.73 121.92) (xy 148.59 121.92)
+			(xy 875.03 269.24) (xy 902.97 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "505f22b3-9e8c-44c1-8626-4fb2511efd3d")
+		(uuid "6a1dfe09-70cc-4249-bc8c-9f13a555400f")
 	)
 	(wire
 		(pts
-			(xy 161.29 146.05) (xy 161.29 144.78)
+			(xy 880.11 247.65) (xy 880.11 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63e6e1cf-b07e-40ed-8161-b9e0ee853de7")
+		(uuid "6b97c327-7f17-47d0-be8a-ce1f6f9c9155")
 	)
 	(wire
 		(pts
-			(xy 120.65 95.25) (xy 120.65 116.84)
+			(xy 880.11 274.32) (xy 902.97 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a16814f-afd1-4221-9059-407d0a95d7aa")
+		(uuid "7697bfc8-a6ed-421a-9925-a309c90248aa")
 	)
 	(wire
 		(pts
-			(xy 96.52 116.84) (xy 120.65 116.84)
+			(xy 889 289.56) (xy 902.97 289.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d9fb914-ce0c-4a89-b7a7-3692e7a5ee2f")
+		(uuid "7b033965-ed46-489d-a0ef-068fb0af2a11")
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 123.19 85.09)
+			(xy 915.67 300.99) (xy 915.67 298.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e1d79e8-5a7a-4088-baeb-a668f52c30a7")
+		(uuid "8a0473c7-86b8-46b8-a69a-5a544f3b57d3")
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 119.38 85.09)
+			(xy 915.67 246.38) (xy 943.61 246.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ecb190d-96f1-49c6-835d-bf7d90796f12")
+		(uuid "8bbea9e5-1cad-4a61-934b-40005212d4e3")
 	)
 	(wire
 		(pts
-			(xy 189.23 93.98) (xy 189.23 101.6)
+			(xy 882.65 247.65) (xy 882.65 276.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70717826-03e8-411d-a9f6-cb549b6c43fb")
+		(uuid "8e1fb7e7-0c3b-4063-abd8-e20e319b4981")
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 110.49 106.68)
+			(xy 875.03 237.49) (xy 877.57 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70b0aa8c-3d6c-41bf-a20d-761f119440fe")
+		(uuid "91daedba-53d4-45ee-bf3b-58eb8941c70f")
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 125.73 121.92)
+			(xy 889 298.45) (xy 915.67 298.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cf9d716-205f-4504-ba99-c64d14a65355")
+		(uuid "9226fc50-60f4-4280-8240-b2d6bd4264ce")
 	)
 	(wire
 		(pts
-			(xy 128.27 124.46) (xy 148.59 124.46)
+			(xy 902.97 256.54) (xy 889 256.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ffe6ee2-2920-44b7-b8f4-3a99bd220601")
+		(uuid "9638933c-376d-4ce6-a9fb-d707b244618d")
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 128.27 85.09)
+			(xy 877.57 271.78) (xy 902.97 271.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "949a64dd-8b78-4b3e-aba9-0e886632bbd4")
+		(uuid "a18ba98a-795b-495b-855e-dcea464c9b12")
 	)
 	(wire
 		(pts
-			(xy 123.19 95.25) (xy 123.19 119.38)
+			(xy 882.65 240.03) (xy 882.65 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9adf1066-69ed-483e-a9c2-1abad7cb6ae3")
+		(uuid "a484f465-8f34-4d8b-b1f3-4ed3235013ea")
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 120.65 85.09)
+			(xy 875.03 247.65) (xy 875.03 269.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e977e50-1e05-42f4-b099-f023402baccd")
+		(uuid "aa916ddf-7f28-4720-ae5f-ee8b5732073b")
 	)
 	(wire
 		(pts
-			(xy 96.52 111.76) (xy 115.57 111.76)
+			(xy 889 289.56) (xy 889 298.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a60b1ebb-11aa-4507-873c-b4d41c43161a")
+		(uuid "ae643334-964b-4d2f-99e3-0c28c764f3b8")
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 115.57 87.63)
+			(xy 867.41 247.65) (xy 867.41 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a84cb0e5-4676-4a30-b469-015477b9412c")
+		(uuid "ae7e1be3-e8e0-4c73-bed1-c619d91646ba")
 	)
 	(wire
 		(pts
-			(xy 125.73 85.09) (xy 128.27 85.09)
+			(xy 889 256.54) (xy 889 289.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adada24f-bc5e-4593-9b21-c094bda83d20")
+		(uuid "b2524d0b-db7b-442b-a46f-3d06e364510c")
 	)
 	(wire
 		(pts
-			(xy 123.19 119.38) (xy 148.59 119.38)
+			(xy 880.11 237.49) (xy 882.65 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b28e49a0-2f70-44e8-848c-5f7615b1e1ee")
+		(uuid "c3408d7d-298e-4db2-b874-f16b0c374b88")
 	)
 	(wire
 		(pts
-			(xy 161.29 148.59) (xy 161.29 146.05)
+			(xy 864.87 240.03) (xy 864.87 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b67a31da-680b-4634-b46f-17772a6fd64b")
+		(uuid "c8095a05-0974-4c0f-9de4-d0dbe469e182")
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 120.65 87.63)
+			(xy 867.41 237.49) (xy 867.41 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6db1a07-2d49-4c1c-9da5-6c3b804fd70d")
+		(uuid "c9a4aebc-b8e9-410e-bff7-462695c96ae6")
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 148.59 114.3)
+			(xy 877.57 237.49) (xy 880.11 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2a96230-36ca-456a-a39e-e6df14c6e272")
+		(uuid "cdd1f125-3399-45dc-a73d-eaeac1114012")
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 134.62 137.16)
+			(xy 877.57 237.49) (xy 877.57 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8c520b6-9393-43f7-85cf-2bc6e4d3f381")
+		(uuid "d08f6269-3aee-402d-9b04-fa974b10554d")
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 123.19 87.63)
+			(xy 915.67 298.45) (xy 915.67 297.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca876afe-3340-42fe-b86a-ba4e7faa9d37")
+		(uuid "d2af83ec-3abd-4caf-810b-10e2e997e9cf")
 	)
 	(wire
 		(pts
-			(xy 134.62 146.05) (xy 161.29 146.05)
+			(xy 850.9 274.32) (xy 880.11 274.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf947379-f3d7-43b0-9f0f-cd8a9ecc1959")
+		(uuid "dd5de2e4-5219-4927-9a8c-762857839310")
 	)
 	(wire
 		(pts
-			(xy 110.49 85.09) (xy 113.03 85.09)
+			(xy 943.61 246.38) (xy 943.61 254)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2651097-2380-451b-b463-a825140b1a0d")
+		(uuid "e0b3ccb0-0077-4cd4-adb6-39093eca7b06")
 	)
 	(wire
 		(pts
-			(xy 96.52 119.38) (xy 123.19 119.38)
+			(xy 872.49 247.65) (xy 872.49 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd0c658f-a0f9-4cf4-8d03-bebc319b1815")
+		(uuid "e5bb0e2e-4c16-4efc-bdeb-d7047a0b5ef1")
 	)
 	(wire
 		(pts
-			(xy 110.49 87.63) (xy 110.49 85.09)
+			(xy 915.67 248.92) (xy 915.67 246.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e24d0004-e2f7-4128-9ae0-317adf9f125e")
+		(uuid "e94d4f72-bc94-4587-a0bd-68d82b24e682")
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 148.59 137.16)
+			(xy 880.11 237.49) (xy 880.11 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7890823-2ae9-47ce-ba6b-18ac190fab41")
+		(uuid "ef1b3281-65cb-447d-8814-c0095acdf6b7")
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 115.57 85.09)
+			(xy 864.87 259.08) (xy 902.97 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e975e045-24c3-43dc-952d-601a178274d4")
+		(uuid "f0bb4ab4-9229-412e-9727-5961db292908")
 	)
 	(wire
 		(pts
-			(xy 118.11 95.25) (xy 118.11 114.3)
+			(xy 875.03 237.49) (xy 875.03 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f827ecd7-902f-42b7-8d38-4ef9234c445f")
+		(uuid "f1179482-9a4a-4455-8a0a-36987723d72b")
 	)
 	(wire
 		(pts
-			(xy 120.65 116.84) (xy 148.59 116.84)
+			(xy 850.9 261.62) (xy 867.41 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9441274-10f3-4845-84b1-7c669c7ac81b")
+		(uuid "fe85e03c-9081-4ed9-90f8-425df3392c98")
 	)
 	(wire
 		(pts
-			(xy 115.57 111.76) (xy 148.59 111.76)
+			(xy 869.95 264.16) (xy 902.97 264.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa21f6d2-6a60-4830-aacb-3d0609f56876")
+		(uuid "ffe943f7-fa62-4413-bfa5-ffbcaef62114")
 	)
-	(wire
-		(pts
-			(xy 189.23 107.95) (xy 189.23 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd90123d-be23-4620-9dbb-33cf35ed3b99")
-	)
-	(wire
-		(pts
-			(xy 125.73 85.09) (xy 125.73 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3db1d4-93e5-4c52-9c9f-35d1c40a31be")
-	)
-	(wire
-		(pts
-			(xy 110.49 106.68) (xy 148.59 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff64de6f-efe8-4f71-9231-19f6a2baaea6")
-	)
-	(global_label "IS_CLOCK"
+	(global_label "IS_SWITCH6"
 		(shape input)
-		(at 148.59 134.62 180)
+		(at 850.9 271.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1680,9 +1662,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0e04cb11-4f4e-4bd5-b925-cf5bb9bed306")
+		(uuid "0d4fd210-2637-41c7-9c5a-925675677d58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6543 134.62 0)
+			(at 837.0896 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1696,7 +1678,7 @@
 	)
 	(global_label "IS_LATCH"
 		(shape input)
-		(at 148.59 129.54 180)
+		(at 902.97 281.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1704,9 +1686,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5b315513-360e-44a0-9aa3-21ca9c7e8eff")
+		(uuid "1878727b-4e7b-4672-bb4a-5b91b3d4d254")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1381 129.54 0)
+			(at 891.5181 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,9 +1700,9 @@
 			)
 		)
 	)
-	(global_label "SW_SHIFTER11"
+	(global_label "IS_SWITCH4"
 		(shape input)
-		(at 96.52 106.68 180)
+		(at 850.9 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1728,9 +1710,129 @@
 			)
 			(justify right)
 		)
-		(uuid "5e643a0f-737f-49cf-9ff2-0c1ba6b30244")
+		(uuid "3d10124c-40c0-45e4-bf83-3ad4d47c797c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 106.68 0)
+			(at 837.0896 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IS_SWITCH1"
+		(shape input)
+		(at 850.9 259.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e9f90ed-c074-4d4a-8e9b-f8bc0a0daf67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 837.0896 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IS_SWITCH8"
+		(shape input)
+		(at 850.9 276.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7215dced-3e13-4839-929a-25bcc87323df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 837.0896 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IS_SWITCH7"
+		(shape input)
+		(at 850.9 274.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75bbede8-a7dd-4d1b-960a-2b93071a13dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 837.0896 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IS_SWITCH2"
+		(shape input)
+		(at 850.9 261.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95a422c4-8d80-4b1e-82d4-161484a8177a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 837.0896 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IS_SWITCH3"
+		(shape input)
+		(at 850.9 264.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaa76f97-217e-4917-b962-6d0d441ba9e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 837.0896 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1744,7 +1846,7 @@
 	)
 	(global_label "IS_DATA"
 		(shape input)
-		(at 173.99 104.14 0)
+		(at 928.37 256.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1752,9 +1854,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5fa184e5-16a4-48e3-9c66-0b2993096ea6")
+		(uuid "c6c5c386-1422-4559-9837-e7873309663e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.1719 104.14 0)
+			(at 938.5519 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,9 +1868,9 @@
 			)
 		)
 	)
-	(global_label "SW_SHIFTER14"
+	(global_label "IS_CLOCK"
 		(shape input)
-		(at 96.52 114.3 180)
+		(at 902.97 287.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1776,9 +1878,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6486c2e6-8164-43d2-b79a-023a4ec2d701")
+		(uuid "ed08b5f8-11f3-4d91-b0da-577bdddea9bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 114.3 0)
+			(at 891.0343 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1790,9 +1892,9 @@
 			)
 		)
 	)
-	(global_label "SW_SHIFTER15"
+	(global_label "IS_SWITCH5"
 		(shape input)
-		(at 96.52 116.84 180)
+		(at 850.9 269.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1800,129 +1902,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8b92e685-746d-4c3c-ab53-293c9f1523a4")
+		(uuid "faf6080a-3d91-456c-8503-9e18d64692b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW_SHIFTER13"
-		(shape input)
-		(at 96.52 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a070ec77-721d-47d3-8938-d965a3299966")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW_SHIFTER12"
-		(shape input)
-		(at 96.52 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6792dcd-2780-4d8d-bbbd-a11348aa001c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW_SHIFTER16"
-		(shape input)
-		(at 96.52 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d586627f-68e6-4a80-a8f1-f740c89496dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW_SHIFTER17"
-		(shape input)
-		(at 96.52 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d949229c-4921-446d-b778-b24144b8367e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW_SHIFTER18"
-		(shape input)
-		(at 96.52 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffa5d1af-4df6-4d3c-ae93-bc7647db5933")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.0768 124.46 0)
+			(at 837.0896 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,8 +1917,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 915.67 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0902f76f-eac4-4232-a155-32595bbc66d0")
+		(property "Reference" "#PWR08"
+			(at 915.67 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 915.67 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 915.67 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 915.67 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 915.67 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40f7d0fe-cc4f-4375-83db-a907e622170f")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 864.87 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15dfea2d-4190-4896-a452-3ec861a4511b")
+		(property "Reference" "#PWR010"
+			(at 864.87 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 864.87 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 864.87 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 864.87 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 864.87 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27e92bb2-f6f3-42f3-bc5a-3c1065658d45")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 115.57 91.44 0)
+		(at 875.03 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1946,9 +2084,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1687ecf2-20ce-4079-96ba-caacce06c256")
-		(property "Reference" "R3"
-			(at 113.03 90.1699 0)
+		(uuid "1d0356eb-894d-4a9f-91c0-d2a14997e66c")
+		(property "Reference" "R23"
+			(at 872.49 242.5699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,8 +2097,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R10k"
-			(at 113.03 92.7099 0)
+		(property "Value" "10k"
+			(at 872.49 245.1099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1972,7 +2110,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 117.348 91.44 90)
+			(at 876.808 243.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1983,7 +2121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 91.44 0)
+			(at 875.03 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,7 +2132,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 91.44 0)
+			(at 875.03 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,23 +2143,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "05ecb3b8-9066-4aac-999c-16da9c6aa082")
+			(uuid "05428a21-a339-41a4-8d1c-ee3a4a4218e5")
 		)
 		(pin "2"
-			(uuid "e657d22e-0857-42c3-9520-92b982e036de")
+			(uuid "a19225bb-f9b9-4386-9638-a62c9322152c")
 		)
 		(instances
-			(project "MobiFlight-kicad-blocks-source"
+			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R3")
+					(reference "R23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC165")
-		(at 161.29 119.38 0)
+		(lib_id "Device:R")
+		(at 864.87 243.84 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2030,9 +2169,178 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23ce9de0-e9d7-43ba-966e-8b4159b657f3")
-		(property "Reference" "U1"
-			(at 163.4333 96.52 0)
+		(uuid "210cf159-a0da-4b70-ac8a-816d19ff34ce")
+		(property "Reference" "R19"
+			(at 862.33 242.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 862.33 245.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 866.648 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 864.87 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 864.87 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0319b27b-33af-4a78-a205-be192be4944c")
+		)
+		(pin "2"
+			(uuid "5e8ed40f-ba74-49ed-b4b5-540fd8d9a28f")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 872.49 243.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70ddbfe1-529e-446d-91a0-15172675b4c9")
+		(property "Reference" "R22"
+			(at 869.95 242.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 869.95 245.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 874.268 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 872.49 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 872.49 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75dc1576-e09e-4cd7-a2a8-988681a4915f")
+		)
+		(pin "2"
+			(uuid "dbd9faa3-cdd6-48e1-a16a-c96dec9e4fbe")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC165")
+		(at 915.67 271.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d99be85-6f38-459b-99b2-0282d650068e")
+		(property "Reference" "U3"
+			(at 917.8133 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2043,7 +2351,7 @@
 			)
 		)
 		(property "Value" "74HC165"
-			(at 163.4333 99.06 0)
+			(at 917.8133 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2054,7 +2362,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
-			(at 161.29 119.38 0)
+			(at 915.67 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2373,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf"
-			(at 161.29 119.38 0)
+			(at 915.67 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2076,7 +2384,7 @@
 			)
 		)
 		(property "Description" "Shift Register, 8-bit, Parallel Load"
-			(at 161.29 119.38 0)
+			(at 915.67 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,87 +2443,9 @@
 			(uuid "001d4ebc-a6f1-4ce1-9787-7d816dda04f4")
 		)
 		(instances
-			(project "MobiFlight-kicad-blocks-source"
+			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "301757e6-cf9f-482d-b52a-8a094717ec73")
-		(property "Reference" "#PWR09"
-			(at 189.23 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fc79fe7-ed5b-41f3-a92d-07eda4ce50b9")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "#PWR09")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2223,8 +2453,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 91.44 0)
-		(mirror y)
+		(at 877.57 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2233,9 +2462,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3caf8f64-b7a7-48b2-90db-bab29a8acc7e")
-		(property "Reference" "R5"
-			(at 118.11 90.1699 0)
+		(uuid "8738b602-77f9-45a8-8514-9b8176127c86")
+		(property "Reference" "R24"
+			(at 880.11 242.5699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2246,8 +2475,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R10k"
-			(at 118.11 92.7099 0)
+		(property "Value" "10k"
+			(at 880.11 245.1099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2488,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 122.428 91.44 90)
+			(at 875.792 243.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,7 +2499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 91.44 0)
+			(at 877.57 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2281,169 +2510,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05428a21-a339-41a4-8d1c-ee3a4a4218e5")
-		)
-		(pin "2"
-			(uuid "a19225bb-f9b9-4386-9638-a62c9322152c")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.29 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e82f5b0-74ca-4cd1-965e-d94cc99172fe")
-		(property "Reference" "#PWR08"
-			(at 161.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40f7d0fe-cc4f-4375-83db-a907e622170f")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cd3d4f3-95bf-4632-b887-48af4156376b")
-		(property "Reference" "R6"
-			(at 125.73 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R10k"
-			(at 125.73 92.7099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 121.412 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 123.19 91.44 0)
+			(at 877.57 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,87 +2527,9 @@
 			(uuid "c77b6834-1821-4733-93b9-30c04d0a14e3")
 		)
 		(instances
-			(project "MobiFlight-kicad-blocks-source"
+			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 161.29 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82104f2f-7917-41a0-b595-fa39263f25e2")
-		(property "Reference" "#PWR04"
-			(at 161.29 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 161.29 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 161.29 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd8ca6b8-522f-4366-8b53-9b59fb6942fa")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "#PWR04")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2548,7 +2537,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 91.44 0)
+		(at 867.41 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2558,9 +2547,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a47badaa-d3c7-40fa-a6f2-1d894933ed9e")
-		(property "Reference" "R1"
-			(at 107.95 90.1699 0)
+		(uuid "a8bd6c73-4ffb-48a0-a155-edc6bddeb4ca")
+		(property "Reference" "R20"
+			(at 864.87 242.5699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,92 +2560,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R10k"
-			(at 107.95 92.7099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 112.268 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0319b27b-33af-4a78-a205-be192be4944c")
-		)
-		(pin "2"
-			(uuid "5e8ed40f-ba74-49ed-b4b5-540fd8d9a28f")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 125.73 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a896965f-78da-44d7-8f28-c2f4024886b2")
-		(property "Reference" "R7"
-			(at 128.27 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R10k"
-			(at 128.27 92.7099 0)
+		(property "Value" "10k"
+			(at 864.87 245.1099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +2573,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 123.952 91.44 90)
+			(at 869.188 243.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +2584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 91.44 0)
+			(at 867.41 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,420 +2595,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 125.73 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2741e6f-d3ca-4707-8ae4-e4f6953cc031")
-		)
-		(pin "2"
-			(uuid "232fe7d6-2b54-4195-8e85-9f458b3b0610")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b29ccd11-3e74-4529-b452-5feb2a400522")
-		(property "Reference" "R8"
-			(at 130.81 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R10k"
-			(at 130.81 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 126.492 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75f8ea6f-7522-40f4-8a6b-b39e8ac8a759")
-		)
-		(pin "2"
-			(uuid "885156e5-95cd-452a-9f1f-980188f4548b")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5b783dd-dede-40f3-937d-b148eed2836d")
-		(property "Reference" "R4"
-			(at 115.57 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R10k"
-			(at 115.57 92.7099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 119.888 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75dc1576-e09e-4cd7-a2a8-988681a4915f")
-		)
-		(pin "2"
-			(uuid "dbd9faa3-cdd6-48e1-a16a-c96dec9e4fbe")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 119.38 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e68d14d6-03f2-4cb4-8515-6634c8ab1181")
-		(property "Reference" "#PWR010"
-			(at 119.38 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 119.38 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 119.38 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27e92bb2-f6f3-42f3-bc5a-3c1065658d45")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 189.23 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8696836-a9d5-4167-b9f4-1ed4f33778d9")
-		(property "Reference" "C1"
-			(at 191.77 102.8762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,1uF"
-			(at 191.77 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
-			(at 189.23 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 189.23 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e94ce387-577b-4ae7-ab5f-baffb56f0edf")
-		)
-		(pin "1"
-			(uuid "f66e18fc-cae3-450b-ae35-f076d86592da")
-		)
-		(instances
-			(project "MobiFlight-kicad-blocks-source"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd2c9447-7288-4a7f-aac3-65eb520332b7")
-		(property "Reference" "R2"
-			(at 110.49 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R10k"
-			(at 110.49 92.7099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 114.808 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 91.44 0)
+			(at 867.41 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3120,9 +2612,499 @@
 			(uuid "9ba0d6c5-fd0c-4acb-99d4-2fe38049b034")
 		)
 		(instances
-			(project "MobiFlight-kicad-blocks-source"
+			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "R2")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 882.65 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be345169-d4ad-4184-9104-bfbdf3d297d0")
+		(property "Reference" "R26"
+			(at 885.19 242.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 885.19 245.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 880.872 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 882.65 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 882.65 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75f8ea6f-7522-40f4-8a6b-b39e8ac8a759")
+		)
+		(pin "2"
+			(uuid "885156e5-95cd-452a-9f1f-980188f4548b")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 943.61 260.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7d358eb-ad1e-4f5e-9945-2de526b96da7")
+		(property "Reference" "#PWR09"
+			(at 943.61 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 943.61 265.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 943.61 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 943.61 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 943.61 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc79fe7-ed5b-41f3-a92d-07eda4ce50b9")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 880.11 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a3af18-77cb-4ec3-b00e-a591264dfe9b")
+		(property "Reference" "R25"
+			(at 882.65 242.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 882.65 245.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 878.332 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 880.11 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 880.11 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2741e6f-d3ca-4707-8ae4-e4f6953cc031")
+		)
+		(pin "2"
+			(uuid "232fe7d6-2b54-4195-8e85-9f458b3b0610")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 869.95 243.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6ddd1ed-eda0-4624-ac00-fd328189f19c")
+		(property "Reference" "R21"
+			(at 867.41 242.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 867.41 245.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 871.728 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 869.95 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 869.95 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05ecb3b8-9066-4aac-999c-16da9c6aa082")
+		)
+		(pin "2"
+			(uuid "e657d22e-0857-42c3-9520-92b982e036de")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 915.67 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb2a0636-5358-48a9-9eac-166954e8fa80")
+		(property "Reference" "#PWR04"
+			(at 915.67 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 915.67 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 915.67 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 915.67 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 915.67 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd8ca6b8-522f-4366-8b53-9b59fb6942fa")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 943.61 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe294be5-1852-42a1-bdd4-6a429cc5657d")
+		(property "Reference" "C4"
+			(at 946.15 255.2762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,1uF"
+			(at 946.15 257.8162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+			(at 943.61 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 943.61 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 943.61 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e94ce387-577b-4ae7-ab5f-baffb56f0edf")
+		)
+		(pin "1"
+			(uuid "f66e18fc-cae3-450b-ae35-f076d86592da")
+		)
+		(instances
+			(project "kicad-mobiflight-device-blocks-worksheet"
+				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "C4")
 					(unit 1)
 				)
 			)
