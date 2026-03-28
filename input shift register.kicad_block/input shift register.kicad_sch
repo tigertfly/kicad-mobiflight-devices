@@ -2,7 +2,7 @@
 	(version 20260101)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "4b0072fc-434e-4b81-983f-3d54cf8b442c")
+	(uuid "b3e865d5-1e45-40f7-a81b-b17f07c535c3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74xx:74HC165"
@@ -1652,30 +1652,6 @@
 		)
 		(uuid "ffe943f7-fa62-4413-bfa5-ffbcaef62114")
 	)
-	(global_label "IS_SWITCH6"
-		(shape input)
-		(at 850.9 271.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d4fd210-2637-41c7-9c5a-925675677d58")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "IS_LATCH"
 		(shape input)
 		(at 902.97 281.94 180)
@@ -1689,150 +1665,6 @@
 		(uuid "1878727b-4e7b-4672-bb4a-5b91b3d4d254")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 891.5181 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IS_SWITCH4"
-		(shape input)
-		(at 850.9 266.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3d10124c-40c0-45e4-bf83-3ad4d47c797c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IS_SWITCH1"
-		(shape input)
-		(at 850.9 259.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e9f90ed-c074-4d4a-8e9b-f8bc0a0daf67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IS_SWITCH8"
-		(shape input)
-		(at 850.9 276.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7215dced-3e13-4839-929a-25bcc87323df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IS_SWITCH7"
-		(shape input)
-		(at 850.9 274.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75bbede8-a7dd-4d1b-960a-2b93071a13dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IS_SWITCH2"
-		(shape input)
-		(at 850.9 261.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "95a422c4-8d80-4b1e-82d4-161484a8177a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 261.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IS_SWITCH3"
-		(shape input)
-		(at 850.9 264.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aaa76f97-217e-4917-b962-6d0d441ba9e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 264.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1892,29 +1724,93 @@
 			)
 		)
 	)
-	(global_label "IS_SWITCH5"
+	(hierarchical_label "IS_SWITCH3"
 		(shape input)
-		(at 850.9 269.24 180)
-		(fields_autoplaced yes)
+		(at 850.9 264.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "faf6080a-3d91-456c-8503-9e18d64692b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 837.0896 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "04b46ee3-bbd6-45cc-9296-e28c00607b15")
+	)
+	(hierarchical_label "IS_SWITCH6"
+		(shape input)
+		(at 850.9 271.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "49ae6dec-eb2d-4454-b39d-459f13341d27")
+	)
+	(hierarchical_label "IS_SWITCH4"
+		(shape input)
+		(at 850.9 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfc22f41-41c4-405c-8709-d947fde34388")
+	)
+	(hierarchical_label "IS_SWITCH5"
+		(shape input)
+		(at 850.9 269.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dff56d4e-2c7e-4beb-b6a4-2eaec747d4c2")
+	)
+	(hierarchical_label "IS_SWITCH1"
+		(shape input)
+		(at 850.9 259.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e77d8b96-b5c9-4eb0-b54d-4fafd50bbfca")
+	)
+	(hierarchical_label "IS_SWITCH2"
+		(shape input)
+		(at 850.9 261.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa9f0486-da80-4d69-b55d-663314134b2f")
+	)
+	(hierarchical_label "IS_SWITCH8"
+		(shape input)
+		(at 850.9 276.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd831e2f-7efe-4352-8a98-3c6efa5edd8e")
+	)
+	(hierarchical_label "IS_SWITCH7"
+		(shape input)
+		(at 850.9 274.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "feaa3980-9834-4908-b849-76d8ab11549f")
 	)
 	(symbol
 		(lib_id "power:GND")
