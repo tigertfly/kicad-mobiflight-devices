@@ -2,9 +2,165 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "507c6575-b81a-4cae-bd95-01c52752ba5c")
+	(uuid "0a4e7748-6815-4156-a06e-3f50631a5432")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
 				(offset 1.016)
@@ -440,9 +596,54 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 34.29 116.84)
+		(end 50.8 133.35)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "37309336-3920-49a8-b47b-f8eae6a5c0b5")
+	)
+	(text "optional for\nnoise filtering"
+		(exclude_from_sim no)
+		(at 35.306 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc7c944b-96ee-4903-95a0-e695cdcbd4bd")
+	)
+	(junction
+		(at 30.48 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "520e63ff-c2f1-4d9b-9280-38b435e5e112")
+	)
+	(junction
+		(at 39.37 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b81d2b6-fe00-441e-a251-988568972a83")
+	)
 	(wire
 		(pts
-			(xy 356.87 73.66) (xy 356.87 78.74)
+			(xy 39.37 110.49) (xy 46.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9cb8ec-5896-40d0-9e74-8dc253e31e8e")
+	)
+	(wire
+		(pts
+			(xy 30.48 114.3) (xy 30.48 127)
 		)
 		(stroke
 			(width 0)
@@ -452,27 +653,67 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 69.85) (xy 367.03 69.85)
+			(xy 39.37 110.49) (xy 39.37 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46adb07d-6c1f-4037-9aa9-9f26b48ccc7d")
+		(uuid "1b9eca05-a6e7-42e2-a9a7-c41da6d50fee")
 	)
 	(wire
 		(pts
-			(xy 356.87 60.96) (xy 356.87 66.04)
+			(xy 39.37 124.46) (xy 39.37 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd499167-e5bd-41dd-8903-882379b7dd69")
+		(uuid "3f5f1718-5b75-4fa9-94aa-9a528003d7ba")
+	)
+	(wire
+		(pts
+			(xy 39.37 127) (xy 30.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06dbff0-d765-4fb5-9ada-a196977a1fd9")
+	)
+	(wire
+		(pts
+			(xy 30.48 100.33) (xy 30.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd295e22-b1f8-4ee7-9397-3fd15782118a")
+	)
+	(wire
+		(pts
+			(xy 34.29 110.49) (xy 39.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e2f9e3-4b41-4239-af6f-d2b452a7f62f")
+	)
+	(wire
+		(pts
+			(xy 30.48 133.35) (xy 30.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc481e27-d4c7-43bf-84a4-19f35c63dfca")
 	)
 	(global_label "POT1"
 		(shape input)
-		(at 367.03 69.85 0)
+		(at 46.99 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -480,9 +721,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e6fb0388-7fff-40fa-8c0e-6ed6f56ebb3f")
+		(uuid "af3d48df-8dd9-4245-bc08-4f2dca8a4662")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.7928 69.85 0)
+			(at 54.7528 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -495,86 +736,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 356.87 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e8a1ddf-7fa9-4543-9456-7f417d44b5ae")
-		(property "Reference" "#PWR022"
-			(at 356.87 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 356.87 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 356.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 356.87 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d4a0be0-d03a-4ac9-b771-73f9eb89c14e")
-		)
-		(instances
-			(project "panel-pcb-kicad"
-				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 356.87 78.74 0)
+		(at 30.48 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -583,9 +746,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4ae4a68f-5a96-4611-b1c0-2794d3806694")
+		(uuid "12a174ae-54cc-48ac-b2db-9ebc939513ff")
 		(property "Reference" "#PWR021"
-			(at 356.87 85.09 0)
+			(at 30.48 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -596,7 +759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 83.82 0)
+			(at 30.48 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -606,7 +769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 78.74 0)
+			(at 30.48 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -617,7 +780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 78.74 0)
+			(at 30.48 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -628,7 +791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 78.74 0)
+			(at 30.48 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -651,9 +814,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 356.87 69.85 0)
-		(mirror x)
+		(lib_id "power:VCC")
+		(at 30.48 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -661,9 +823,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d565a2f7-e7a3-4114-8571-467ec0f4e321")
-		(property "Reference" "RV1"
-			(at 352.298 68.834 0)
+		(fields_autoplaced yes)
+		(uuid "816d18ec-23a4-4d2d-a5c1-11407e114331")
+		(property "Reference" "#PWR022"
+			(at 30.48 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -672,8 +836,8 @@
 				)
 			)
 		)
-		(property "Value" "R10k"
-			(at 352.298 71.374 0)
+		(property "Value" "VCC"
+			(at 30.48 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -682,8 +846,8 @@
 				)
 			)
 		)
-		(property "Footprint" "MobiFlight Devices:Potentiometer_Alps_RK09K_Single_Vertical"
-			(at 356.87 69.85 0)
+		(property "Footprint" ""
+			(at 30.48 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -694,7 +858,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 69.85 0)
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 30.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d4a0be0-d03a-4ac9-b771-73f9eb89c14e")
+		)
+		(instances
+			(project "panel-pcb-kicad"
+				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 30.48 110.49 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c64d1526-44b5-4d27-8bda-90db6d6da040")
+		(property "Reference" "RV1"
+			(at 25.908 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R10k"
+			(at 25.908 112.014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MobiFlight Devices:Potentiometer_Alps_RK09K_Single_Vertical"
+			(at 30.48 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -705,7 +946,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 356.87 69.85 0)
+			(at 30.48 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -728,6 +969,88 @@
 			(project "panel-pcb-kicad"
 				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 39.37 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee800d79-d7ac-4b67-89e4-66ef502f2811")
+		(property "Reference" "C1"
+			(at 41.91 120.6562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 41.91 123.1962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+			(at 39.37 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9419e979-a542-4b82-b016-99b2310779b4")
+		)
+		(pin "2"
+			(uuid "47abc0ed-25e1-4e61-bbe8-4e9060af6da5")
+		)
+		(instances
+			(project "panel-pcb-kicad"
+				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
+					(reference "C1")
 					(unit 1)
 				)
 			)
