@@ -1,5 +1,5 @@
 {
-"description": "MobiFlight example wiring schema for potentiometer",
+"description": "Potentiometer input device for MobiFlight",
 "keywords": "potentiometer, input",
 "fields": {}
 }
