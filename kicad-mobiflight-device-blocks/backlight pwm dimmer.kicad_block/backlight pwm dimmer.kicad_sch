@@ -1,8 +1,8 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "48f5dccd-3517-4e8f-a475-8282f9046813")
+	(uuid "33a0e6fe-e8e7-4613-bc40-a01caf08b5bf")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -145,7 +145,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7000"
+		(symbol "Transistor_FET:IRLZ44N"
 			(pin_names
 				(hide yes)
 			)
@@ -165,7 +165,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7000"
+			(property "Value" "IRLZ44N"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -176,7 +176,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -189,7 +189,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -201,7 +201,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -212,7 +212,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -223,7 +223,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "TO?220*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -234,7 +234,7 @@
 					)
 				)
 			)
-			(symbol "2N7000_0_1"
+			(symbol "IRLZ44N_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -401,11 +401,11 @@
 					)
 				)
 			)
-			(symbol "2N7000_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+			(symbol "IRLZ44N_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -420,10 +420,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "G"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -439,9 +439,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -576,30 +576,30 @@
 		)
 	)
 	(junction
-		(at 236.22 142.24)
+		(at 171.45 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "680716bf-c6ab-47ca-a595-5da4eaa3de5f")
+		(uuid "8cd61a06-bb2c-43f8-b416-3ca1c1b9b793")
 	)
 	(junction
-		(at 255.27 158.75)
+		(at 152.4 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aed76cad-218a-4c39-9627-83ca7e27f88f")
+		(uuid "cc4d7e76-0289-4709-acf6-1f58ed97e573")
 	)
 	(wire
 		(pts
-			(xy 246.38 142.24) (xy 247.65 142.24)
+			(xy 163.83 113.03) (xy 162.56 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0228915f-223b-47c6-94d6-e663b0bf900b")
+		(uuid "248ea376-08dc-4447-b1ff-5c405ae2d05d")
 	)
 	(wire
 		(pts
-			(xy 259.08 132.08) (xy 255.27 132.08)
+			(xy 177.8 99.06) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 142.24) (xy 238.76 142.24)
+			(xy 152.4 113.03) (xy 154.94 113.03)
 		)
 		(stroke
 			(width 0)
@@ -619,7 +619,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 147.32) (xy 255.27 158.75)
+			(xy 171.45 118.11) (xy 171.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 132.08) (xy 255.27 137.16)
+			(xy 171.45 99.06) (xy 171.45 107.95)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +639,17 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 142.24) (xy 236.22 142.24)
+			(xy 171.45 125.73) (xy 171.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f1a49e-022e-4fdf-888c-d476f85ccfa8")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 152.4 113.03)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 142.24) (xy 236.22 146.05)
+			(xy 152.4 113.03) (xy 152.4 115.57)
 		)
 		(stroke
 			(width 0)
@@ -659,17 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 158.75) (xy 255.27 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617dc76a-cac1-4d19-a8e1-316bd393c463")
-	)
-	(wire
-		(pts
-			(xy 236.22 153.67) (xy 236.22 158.75)
+			(xy 152.4 123.19) (xy 152.4 125.73)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 158.75) (xy 255.27 158.75)
+			(xy 152.4 125.73) (xy 171.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +689,7 @@
 	)
 	(global_label "BACKLIGHT_PWM"
 		(shape input)
-		(at 233.68 142.24 180)
+		(at 149.86 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -699,7 +699,7 @@
 		)
 		(uuid "61bb4e47-dcac-4059-95a9-a623b632aaa8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.4548 142.24 0)
+			(at 131.6348 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -713,7 +713,7 @@
 	)
 	(global_label "BACKLIGHT_GND"
 		(shape input)
-		(at 259.08 132.08 0)
+		(at 177.8 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -723,7 +723,7 @@
 		)
 		(uuid "f778ffbe-9c72-4653-8baa-fb8aa32a4793")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.0029 132.08 0)
+			(at 195.7229 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -732,100 +732,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 252.73 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34ee8029-01e0-4968-af87-55fa282a2551")
-		(property "Reference" "Q2"
-			(at 259.08 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 259.08 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
-			(at 257.81 144.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 257.81 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 252.73 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "607b5488-2592-4d79-945a-3eec9c338ec2")
-		)
-		(pin "2"
-			(uuid "787045f3-b0cc-4baf-b86a-79669d673a4e")
-		)
-		(pin "3"
-			(uuid "fe6c3089-fd87-48af-91f4-5d26e5149f1f")
-		)
-		(instances
-			(project "kicad-mobiflight-device-blocks-worksheet"
-				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
-					(reference "Q2")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 236.22 149.86 180)
+		(at 152.4 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -836,7 +748,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b8f79bc-d8a1-4b2e-aa61-cea2454932da")
 		(property "Reference" "R2"
-			(at 238.76 148.5899 0)
+			(at 154.94 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -847,7 +759,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 238.76 151.1299 0)
+			(at 154.94 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -858,7 +770,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 237.998 149.86 90)
+			(at 154.178 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -869,7 +781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 149.86 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -880,7 +792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 149.86 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -891,7 +803,7 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 236.22 149.86 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -902,7 +814,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 236.22 149.86 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -913,7 +825,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25804"
-			(at 236.22 149.86 0)
+			(at 152.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -936,11 +848,17 @@
 					(unit 1)
 				)
 			)
+			(project "panel-pcb-kicad"
+				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 166.37 0)
+		(at 171.45 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -950,7 +868,7 @@
 		(dnp no)
 		(uuid "76009452-2e34-4627-8207-527ae129ba2a")
 		(property "Reference" "#PWR036"
-			(at 255.27 172.72 0)
+			(at 171.45 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -961,7 +879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.397 170.7642 0)
+			(at 171.577 135.2042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -971,7 +889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 166.37 0)
+			(at 171.45 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -982,7 +900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 166.37 0)
+			(at 171.45 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 166.37 0)
+			(at 171.45 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1013,11 +931,105 @@
 					(unit 1)
 				)
 			)
+			(project "panel-pcb-kicad"
+				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 168.91 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d21b08ff-a58c-4f59-8f92-21083ea9c4d9")
+		(property "Reference" "Q1"
+			(at 175.26 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 175.26 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 173.99 114.935 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 173.99 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "51667ef8-2a59-4d4e-81bc-9ea44a966d33")
+		)
+		(pin "1"
+			(uuid "14e9da36-a1ea-4717-bde1-b335d6371e0a")
+		)
+		(pin "3"
+			(uuid "a1407494-8b5b-4e9e-a7cc-7b128ee6fc79")
+		)
+		(instances
+			(project "panel-pcb-kicad"
+				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 142.24 90)
+		(at 158.75 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1028,7 +1040,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebc95f34-7bab-41bd-b335-34ac84f90884")
 		(property "Reference" "R1"
-			(at 242.57 135.89 90)
+			(at 158.75 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1038,7 +1050,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 242.57 138.43 90)
+			(at 158.75 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1048,7 +1060,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 242.57 144.018 90)
+			(at 158.75 114.808 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1059,7 +1071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 142.24 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1070,7 +1082,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 142.24 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1081,7 +1093,7 @@
 			)
 		)
 		(property "LCSC Part#" ""
-			(at 242.57 142.24 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1092,7 +1104,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 242.57 142.24 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1103,7 +1115,7 @@
 			)
 		)
 		(property "LCSC Part #" "C21190"
-			(at 242.57 142.24 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1122,6 +1134,12 @@
 		(instances
 			(project "kicad-mobiflight-device-blocks-worksheet"
 				(path "/4714e232-3dfb-45f4-a0c3-3539b78f5138"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "panel-pcb-kicad"
+				(path "/6be401a8-e515-4f8d-8c23-da9295db45d6"
 					(reference "R1")
 					(unit 1)
 				)
